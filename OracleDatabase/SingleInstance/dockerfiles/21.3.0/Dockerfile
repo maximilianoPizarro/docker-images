@@ -20,7 +20,7 @@
 #
 # Pull base image
 # ---------------
-FROM registry.redhat.io/rhel7-minimal:7.9-638.1645809125 as base
+FROM registry.redhat.io/rhel:7.9-632.1645808149 as base
 
 # Labels
 # ------
