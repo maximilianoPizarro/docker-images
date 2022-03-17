@@ -20,7 +20,7 @@
 #
 # Pull base image
 # ---------------
-FROM oraclelinux:7-slim as base
+FROM registry.redhat.io/rhel7-minimal:7.9-638.1645809125 as base
 
 # Labels
 # ------
