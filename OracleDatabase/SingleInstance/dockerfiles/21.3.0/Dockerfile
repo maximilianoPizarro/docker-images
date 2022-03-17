@@ -20,7 +20,7 @@
 #
 # Pull base image
 # ---------------
-FROM registry.redhat.io/rhel:7.9-632.1645808149 as base
+FROM quay.io/centos/centos:stream9 as base
 
 # Labels
 # ------
